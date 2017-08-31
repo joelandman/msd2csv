@@ -1,7 +1,9 @@
 # msd2csv
 MySQL dump to CSV conversion
 
-# Usage:   (z)cat dump.sql(.gz) | msd2csv.pl > dump.csv
+# Usage:   
+
+  (z)cat dump.sql(.gz) | msd2csv.pl > dump.csv
 
 First line will be a comment with the header from the
 table definition.   Subsequent lines will be the actual entries
